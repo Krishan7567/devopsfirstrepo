@@ -2,11 +2,11 @@
 ACTION=$1
 case $ACTION in 
     start)
-        echo"start"
+        echo "start service"
         exit 0
         ;;
-    start)
-        echo"start"
+    stop)
+        echo "stop service"
         exit 0
         ;;
 esac    
