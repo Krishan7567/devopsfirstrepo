@@ -7,7 +7,7 @@ case $ACTION in
         ;;
     stop)
         echo "stop service"
-        exit 0
+        exit 1
         ;;
 esac    
 
